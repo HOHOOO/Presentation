@@ -4,13 +4,13 @@
 #### 基于千人千面业务
 <br>
 
-<span style="color:green; font-size:0.5em"> <b>Copyright (c)</b> [侯志伟/算法工程师](https://github.com/hohooo)</span>
+<span style="color:black; font-size:0.5em"> [侯志伟/算法工程师](https://github.com/hohooo)</span>
 
 ---
 
 @title[MENU]
-## 目录
-<br>
+<top>## 目录</top>
+
 
 - 用户画像简介 |
 - 值得买的用户画像实践 |
@@ -129,6 +129,7 @@ note:无
 ![Image-Absolute](assets/image/picture2.png)
 
 +++
+
 @title[时间衰减]
 2. 时间衰减，多模多态
 ![Image-Absolute](assets/image/picture3.png)
@@ -136,6 +137,7 @@ note:无
 ![Image-Absolute](assets/image/decay.png)
 
 +++
+
 @title[自然语言处理 TF-IDF]
 3. 自然语言处理在推荐系统中的应用
 BOW(Bag of Words,词袋模型)
@@ -145,6 +147,7 @@ TF-IDF(term frequency–inverse document frequency,词频-逆文件频率)
 ![Image-Absolute](assets/image/picture4.png)
 
 +++
+
 4. 自然语言处理在推荐系统中的应用
 
 
