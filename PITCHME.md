@@ -9,7 +9,7 @@
 ---
 
 @title[MENU]
-<top>## 目录</top>
+## <top>目录</top>
 
 
 - 用户画像简介 |
