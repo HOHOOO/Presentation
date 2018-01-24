@@ -7,6 +7,7 @@
 <span style="color:green; font-size:0.5em"> <b>Copyright (c)</b> [侯志伟/算法工程师](https://github.com/hohooo)</span>
 
 ---
+
 @title[MENU]
 ## 目录
 <br>
@@ -16,7 +17,10 @@
 - 用户画像应用与技术前沿 |
 - 用户画像助力业务增长 |
 
+note:4部分
+
 ---
+
 @title[Introduction]
 ## 用户画像简介
 <br>
@@ -27,23 +31,30 @@
   - 第二种是“推”模式，用户不需要显式提交任何查询和兴趣偏好，推荐系统通过自动化算法来进行“信息”推送。在信息智能时代，推荐系统已经成为互联网以及数据服务公司的核心技术产品。
 
 - 推荐系统的终极目标就是能够理解用户，理解用户核心技术之一就是用户画像构建。
+note:无
 
 +++
+
 @title[define]
 ### 用户画像的定义
 
 - Personas are a concrete representation of target users. via Alan Cooper （交互设计之父）
->Persona 是真实用户的虚拟代表,是建立在一系列真实数据(Marketing data,Usability data)之上的目标用户模型，通过用户调研去了解用户,根据他们的目标、行为和观点的差异,将他们区分为不同的类型,然后每种类型中抽取出典型特征,赋予名字、照片、一些人口统计学要素、场景等描述,就形成了一个人物原型。via 知乎
+
+> Persona 是真实用户的虚拟代表,是建立在一系列真实数据(Marketing data,Usability data)之上的目标用户模型，通过用户调研去了解用户,根据他们的目标、行为和观点的差异,将他们区分为不同的类型,然后每种类型中抽取出典型特征,赋予名字、照片、一些人口统计学要素、场景等描述,就形成了一个人物原型。via 知乎
+note:无
 
 +++
+
 @title[define2]
 ### 用户画像的定义
 - 一言以蔽之，即 <span style="color:green">你的行为决定了你是谁</span><br>
 
 > 在应用信息系统中，利用用户的相关数据(如文本、图片、行为等)来构建未知的用户属性特征等重要信息，即通过数据，得到用户的可量化的信息表示包括简单的属性特征(如年龄、性别等)以及复杂的模式特征(如网络隐含表示等)
 
+note:无
 
 +++
+
 @title[Embed Images]
 ## 用户画像-双刃剑
 <center><big><big>"Big <del>brother</del> data is watching you……"</big></big></center>
@@ -52,43 +63,55 @@
 <center><big><big>惊喜！它比我寄几都了解我寄几:D</big></big></center>
 
 <br>
+note:无
 
 @fa[arrow-down]
 
 +++
+
 @title[Embed Images1]
 网易云音乐：“你可能是个作家。”
 -来自量化信息的抽象表达
 
 <img src="http://oimnc6bmn.bkt.clouddn.com/JJbONXXaqJz3VvNhGoO0ibqhO3xBav8X6g9ATVOTlFecxpqIYlzXWzW7L4iaQaKdEOHyOPZOwfBfGZ9PVibRQFD2w.gif" width = "600" height = "400" alt="dingding" align=center/>
+note:无
 
 +++
+
 @title[Embed Images2]
 keep：“卸了吧，我快要keep不住你的体重了。”
 
 <img src="http://oimnc6bmn.bkt.clouddn.com/JJbONXXaqJz3VvNhGoO0ibqhO3xBav8X6S7Rn3ibwuAx9awMxR35Gicvw3qfTT3HU7icQ8vRtWfysRB12jVibAGooHQ.gif" width = "600" height = "400" alt="keep" align=center/>
+note:无
 
 +++
+
 @title[Embed Images3]
 >钉钉：“以后别去用钉钉的公司了，不适合你。”
 
 <img src="http://oimnc6bmn.bkt.clouddn.com/JJbONXXaqJz3VvNhGoO0ibqhO3xBav8X6B5AEY5Glc1ickuFao9MX0Z88VAjv8bVFbzuyiaIGJkdFT2j7SrTibq9Lw.gif" width = "600" height = "400" alt="dingding" align=center/>
+note:无
 
 +++
+
 @title[Embed Images4]
 >知乎：“谢邀。”
 
 <img src="http://oimnc6bmn.bkt.clouddn.com/JJbONXXaqJz3VvNhGoO0ibqhO3xBav8X6cTWKyA3Z27WSdPauUWOBKt9uj9VULAojIAsWoypwDyuh0pibEvmT4fA.gif" width = "600" height = "400" alt="dingding" align=center/>
+note:无
 
 +++
+
 @title[Embed Images5]
 >得到：“有中年焦虑的阅读障碍患者。”
 
 <img src="http://oimnc6bmn.bkt.clouddn.com/JJbONXXaqJz3VvNhGoO0ibqhO3xBav8X6E1Hnib9gvbRWQC8ZGN54V1gFJ7Y34hEIGcBJo1VCItqJdW3FibsicicOjw.gif" width = "600" height = "400" alt="dingding" align=center/>
+note:无
 
 ---
+
 @title[user_profile in action]
-##值得买的用户画像实践
+## 值得买的用户画像实践
 
 - 值得买用户画像系统2.0，项目开发历时2个月，于2017年10月正式上线，并应用于全站的核心业务千人千面里，帮助业务实现核心架构升级。
 
@@ -99,6 +122,7 @@ keep：“卸了吧，我快要keep不住你的体重了。”
 ![Image-Absolute](assets/image/picture1.png)
 
 +++
+
 @title[ES图]
 1. 系统完备，拓展性强
 
